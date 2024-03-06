@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+  } 
+
+:root {
+    --cor1: #dbd9d9;
+    --cor2: #000;
+    --cor3: #fff;
+    --cor4: #f00;
+    --cor5: #008000;
+    --font1: cursive;
+    --font2: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: var(--cor1);
+}
+header {
+    background-color: #fff;
+    margin: 50px;
+    padding: 30px;
+    text-align: center;
+    color: #000;
+}
+header > h1 {
+    font-family: var(--font1);
+    font-size:  2em;
+}
+header > p {
+    font-family: var(--font2);
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+
+}
