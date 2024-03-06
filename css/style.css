@@ -7,31 +7,77 @@
 
 :root {
     --cor1: #dbd9d9;
-    --cor2: #000;
-    --cor3: #fff;
-    --cor4: #f00;
-    --cor5: #008000;
-    --font1: cursive;
-    --font2: 'Courier New', Courier, monospace;
+    --cor2: #fff;
+    --font1: Arial, Helvetica, sans-serif;
 }
+
 body {
     background-color: var(--cor1);
 }
-header {
-    background-color: #fff;
-    margin: 50px;
+main {
+    background-color: var(--cor2);
+    margin: 90px 50px;
     padding: 30px;
     text-align: center;
     color: #000;
 }
-header > h1 {
+ header > h1 {
     font-family: var(--font1);
     font-size:  2em;
 }
 header > p {
-    font-family: var(--font2);
+    font-family: var(--font1);
     padding: 15px;
     text-align: center;
+    font-style: italic; 
+    font-size: .8em;
+} 
+section > img {
+    width: 600px;
+    height: 400px;
+    padding-top: 20px;
+}
+section > h2 {
+    text-align: left;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 40px 0px 10px 0px ;
+}
+.texto {
+    text-align: left;
+    padding-bottom: 40px;
+}
+.destaque1 {
+    display: block;
+    background-color: var(--cor1) ;
+    width: 910px;
+    height: 200px;
+}
+aside > h3, ul {
+    font-size: 1.8em;
+    font-weight: bolder;
+    text-align: left;
+    padding: 50px 40px 20px 40px;
+}
+aside > p {
+    text-align: left;
+    padding-left: 15px;
     font-style: italic;
-
+}
+.normal {
+    font-size: 1em;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 2em;
+    padding: 20px 0px 35px 35px;
+}
+.destaque2 {
+    display: block;
+    background-color: var(--cor1) ;
+    width: 910px;
+    height: 350px;
+}
+.especial {
+    padding-left: 50px;
+    list-style: none;
 }
